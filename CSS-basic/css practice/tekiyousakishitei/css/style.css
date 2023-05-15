@@ -1,0 +1,40 @@
+*{
+  font-family: serif;
+}
+
+span{
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1, h2{
+  font-family: sans-serif;
+}
+
+.text-green{
+  color: #080;
+  font-size: x-large;
+}
+
+#text-html{
+  font-weight: bold;
+}
+
+.ehon{
+  color: #808080;
+}
+
+a:hover{
+  color: #f00;
+  font-weight: bold;
+  font-family: serif;
+}
+a{
+  text-decoration: none;
+}
+
+.link a:active{
+  color: #080;
+  font-weight: bold;
+  position: relative;
+}
