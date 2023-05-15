@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フォーム</title>
+</head>
+<body>
+  <h1>フォーム</h1>
+  <h2>form形式</h2>
+  <p>フォームの内容はform要素の中に記述します。action属性で送信先のURLを指定し、method属性で通信方法GETまたはPOSTを指示します。</p>
+  <form action="/cgi-bin/sample.cgi" method="post">
+    <p>名前を入力してください</p>
+    <p><input type="text" name="username"></p>
+    <p><input type="submit"></p>
+  </form>
+  <h2>フォーム要素１</h2>
+  <input type="text" name="name">
+  <input type="checkbox" checked>
+</body>
+</html>

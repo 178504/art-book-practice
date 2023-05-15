@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アンケートページ</title>
+</head>
+<body>
+  <form action="#" method="get">
+    <p>アンケート</p>
+    <p>性別</p>
+    <p>
+      <input type="radio" name="seibetsu" value="男性">男性
+      <input type="radio" name="seibetsu" value="女性">女性
+    </p>
+    <p>年齢</p>
+    <p>
+      <input type="text" name="age">
+    </p>
+    <p>絵本を知ったきっかけは？</p>
+    <p>
+      <select name="ehon">
+        <option value="書店で見た">書店で見た</option>
+        <option value="知人の紹介">知人の紹介</option>
+        <option value="ネットで知った">ネットで知った</option>
+      </select>
+    </p>
+    <p>ご意見・ご感想ありましたらお書きください。</p>
+    <p>
+      <textarea name="kanso" cols="50" rows="10" placeholder="ご意見お待ちしています"></textarea>
+    </p>
+    <p><input type="submit" value="送信"></p>
+  </form>
+</body>
+</html>
