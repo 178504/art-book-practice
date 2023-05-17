@@ -1,0 +1,48 @@
+.ehonbox{
+  width: 150px;
+  height: 100px;
+  background-color: #808080;
+  font-size: 24px;
+  font-family: impact,sans-serif;
+}
+.yellow{
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+  border: 2px solid #080;
+  background-color: #ff0;
+}
+.blue{
+  width: 100px;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  border: 2px solid #ff0;
+  background-color: #00f;
+}
+.borderbox{
+  width: 100px;
+  border-style: double dotted solid dashed;
+  padding: 1em;
+  border-width: 6px;
+  border-color: crimson;
+}
+.redlinebox{
+  width: 100px;
+  border: 6px double red;
+  background-color: #ff0;
+  padding-left:2em;
+  padding-bottom: 1em;
+}
+.resize{
+  width: 100px;
+  height: 40px;
+  border: 2px solid #000;
+  resize: both;
+}
+.radius{
+  width: 200px;
+  height: 100px;
+  border: 2px solid "#000";
+  border-top-left-radius: 20px;
+  border-bottom-right-radius:50px;
+}
