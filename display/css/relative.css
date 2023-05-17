@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+}
+div{
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 0;
+  line-height: 400px;
+}
+.static{
+  position: static;
+  background-color: #f00;
+  top: 0;
+  left: 50px;
+}
+.relative{
+  position: relative;
+  background-color: #080;
+  top: 0;
+  left: 50px;
+}

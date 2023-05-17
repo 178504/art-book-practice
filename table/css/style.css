@@ -1,0 +1,19 @@
+ul{
+  list-style-type: square;
+  list-style-image: url("ball.png");
+}
+.css{
+  list-style-image: none;
+}
+
+table, th, td{
+  border: 1px solid #777;
+  border-collapse: separate;
+  border-spacing: 8px;
+}
+td, th{
+  width: 80px;
+}
+caption{
+  caption-side: bottom;
+}
