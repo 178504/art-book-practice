@@ -1,0 +1,27 @@
+div{
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+}
+div:hover{
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
+@keyframes mymove{
+  0%{
+    background-color: #ff0;
+  }
+  50%
+  {
+    background-color: #080;
+    width: 300px;
+    height: 100px;
+  }
+  100%{
+    background-color: #00f;
+    width: 300px;
+    height: 300px;
+  }
+}
