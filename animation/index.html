@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アニメーション</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h1>アニメーション</h1>
+    <h2>CSSのアニメーションとは</h2>
+    <p>CSSのアニメーションは、キーフレームという、ある時点のスタイルを指定したチェックポイントのようなものを設けて、変化させるというものです。キーフレームは次のように
+      <b>@keyframes</b>を使って設定します。</p>
+      <h2>アニメーションを実行する</h2>
+      <h3>適用するキーフレームの設定</h3>
+      <p><b>animation-name</b>プロパティでアニメーションさせたい要素に適用するキーフレーム名を指定する</p>
+      <pre><code>
+        animation-name: mymove;
+      </code></pre>
+      <h3>変化にかかる時間の指定</h3>
+      <p><b>animation-duration</b>プロパティで時間を指定する</p>
+      <pre><code>
+        animation-duration: 6s;
+      </code></pre>
+      <h3>実行する回数の指定</h3>
+      <p><b>animation-iteration-count</b>プロパティで繰り返し回数を指定。無限に繰り返す場合は<b>infinite</b>を指定</p>
+      <pre><code>
+        animation-iteration-count: 3;
+      </code></pre>
+  </main>
+    <div>sample</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.row-reverse{
+  display: flex;
+  width: 250px;
+  border: 2px solid #777;
+  flex-direction: row-reverse;
+}
+.column-reverse{
+  display: flex;
+  width: 250px;
+  border: 2px solid #777;
+  flex-direction: column-reverse;
+}
+.order{
+  display: flex;
+  width: 300px;
+  border: 2px solid #777;
+}
+.box1, .box2, .box3{
+  width: 100px;
+  height: 50px;
+}
+.box1{
+  background: #f00;
+  order: 1;
+}
+.box2{
+  background: #00f;
+  order: 2;
+}
+.box3{
+  background-color: #808;
+  order: 3;
+}

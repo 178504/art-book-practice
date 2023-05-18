@@ -1,0 +1,12 @@
+.column{
+  column-width: 5em;
+  column-count: 2;
+}
+.gap{
+  column-width: 5em;
+  column-count: 3;
+  column-gap: 1px;
+  column-rule-style: solid;
+  column-rule-width: 10px;
+  column-rule-color:#f00 ;
+}

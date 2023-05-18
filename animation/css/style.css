@@ -1,0 +1,26 @@
+div{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: #f00;
+  animation-name: mymove;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
+}
+main{
+  margin-top: 300px;
+}
+@keyframes mymove{
+  0%{
+    left: 0;
+    top: 0;
+  }
+  50%{
+    left: 200px;
+    top: 0;
+  }
+  100%{
+    left: 200px;
+    top: 200px;
+  }
+}
